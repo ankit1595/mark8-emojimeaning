@@ -14,9 +14,8 @@ Or you can click the existing Emojis and know their meaning,
 
 Why wait for! Start Emojitioning.
 
-Learnt:
+# Learnings:
 HTML, CSS, Javascript, ReactJS, JSX (Yet seems weird to write HTML , CSS, JS Together!)
 
-## Thanks
 
 
