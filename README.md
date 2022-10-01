@@ -3,7 +3,7 @@
 
  <p align="center">
   <a href="https://ri2qgu.csb.app/">
-    <img src="/Emoji_Meaning.png" height="300px">
+    <img src="Emoji_Meaning.png" height="300px">
   </a>
 </p>
 
