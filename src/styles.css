@@ -1,4 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Josefin+Sans&family=Lexend+Deca&family=Poppins&display=swap");
+
 .App {
-  font-family: sans-serif;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Inter", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
+  font-family: "Poppins", sans-serif;
+
+  text-align: center;
+  background-color: #97d2ec;
+  padding: 2rem;
+}
+
+input {
+  padding: 0.5rem;
+  width: 70%;
+  margin: auto;
+  font-size: 0.75rem;
+  font-weight: bold;
   text-align: center;
 }
