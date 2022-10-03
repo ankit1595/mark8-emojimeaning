@@ -9,11 +9,14 @@ const emojiDictionary = {
   "😐": "Neutral face ",
   "🍕": "Pizza",
   "🍟": "French Fries",
-  "🍺": "Beer"
+  "🍺": "Beer",
+  "😗": "Kissing Face",
+  "🤖": "Robo Rajini",
+  "👿": "Angry Face",
+  "✌️": "Victory"
 };
 
 var emojisWeKnow = Object.keys(emojiDictionary);
-
 
 export default function App() {
   const [meaning, setMeaning] = useState("");
@@ -37,11 +40,10 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>INSIDE OUTttt</h1>
+      <h1>EMOJIPEDIA📚</h1>
 
       <input
         placeholder="Search your emoji or Click below to know the meaning"
-        style={({ padding: "2em" }, { width: "45%" })}
         onChange={emojiInputHandler}
       ></input>
       <h2> Meaning : {meaning}</h2>
@@ -51,7 +53,12 @@ export default function App() {
         return (
           <span
             onClick={() => emojiClickHandler(emoji)}
-            style={{ fontSize: "2rem", padding: "1rem", cursor: "pointer" }}
+            style={{
+              fontSize: "3rem",
+              backgroundColor: "#00ffgg",
+              padding: "2rem",
+              cursor: "pointer"
+            }}
             key={emoji}
           >
             {emoji}
